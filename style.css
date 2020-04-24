@@ -1,0 +1,214 @@
+body {
+  font-family: "Playfair Display", "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+}
+
+/* НАВИГАЦИЯ */
+
+.title {
+    font-family: Playfair Display;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 46px;
+    letter-spacing: 1px;
+}
+
+nav {
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+nav div {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* ПОДВАЛ */
+
+footer {
+    background-color: #575757;
+    height: 295px;
+}
+
+footer .title {
+    color: #ffffff;
+    padding-top: 26px;
+    padding-bottom: 32px;
+    font-size: 28px;
+    line-height: 37px;
+}
+
+footer nav {
+    color:#ffffff;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    margin-top: 88px;
+}
+
+.social div {
+    background-color: #FFFFFF;
+    width: 47px;
+    height: 47px;
+    margin-left: 7px;
+    margin-right: 7px;
+    line-height: 55px;
+    text-align: center;
+}
+
+
+/* ОБЩИЙ СТИЛЬ */
+
+.p {
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+.h2 {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.h3 {
+    font-size: 23px;
+    line-height: 31px;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/*ПОДВОДНЫЙ ОТЕЛЬ */
+
+.hotel {
+    background-image: url("img/Mask_Group.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 464px;
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+    font-family: Roboto;
+    margin-top: 47px;
+}
+
+.hotel div {
+    height: 464px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hotel img {
+    margin-top: 46px;
+}
+
+span {
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.hotel .p {
+    width: 456px;
+    line-height: 21px;
+    margin-top: 145px;
+}
+
+/*ОБЗОР*/
+
+.review {
+    display: flex;
+    justify-content: space-around;
+}
+
+.review div {
+    width: 370px;
+}
+
+.review div:nth-child(2):not(.h3) {
+    margin-right: 29px;
+    margin-left: 29px;
+}
+
+.review div:nth-child(2) .h3 {
+    color: #FF7931;
+}
+
+.review img {
+    height: 203px;
+}
+
+.review .h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.reviews {
+    margin-top: 44px;
+    margin-bottom: 20px;
+}
+
+/*АБОНЕМЕНТЫ*/
+
+.ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+}
+
+.ticket .h3,
+.ticket .p {
+    width: 368px;
+}
+
+.ticket .h2 {
+    margin-top: 84px;
+    margin-bottom: 35px;
+}
+
+.ticket .h3 {
+    margin-bottom: 10px;
+}
+
+.ticket .p {
+    margin-bottom: 24px;
+}
+
+.button {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 47px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #FF7931;
+    width: 170px;
+    height: 47px;
+    margin-bottom: 86px;
+    text-align: center; 
+}
+
+
+
