@@ -139,6 +139,7 @@ span {
 .review {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .review div {
