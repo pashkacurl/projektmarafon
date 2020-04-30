@@ -1,99 +1,95 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-      <meta charset="UTF-8">
-      <link rel="stylesheet" href="style.css">
-      <title>Новости культуры</title>
-      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Новости культуры">
+    <title>Новости культуры</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
     <header>
-      <div>
-          <div class="title">Новости культуры</div>
-      </div>
       <nav>
-          <div>Новости</div>
-          <div>Обзоры</div>
-          <div>Музыка</div>
-          <div>Архитектура</div>
-          <div>Кино</div>
-          <div>Театр</div>
-          <div>Литература</div>
-          <div>Религия</div>
-          <div>Живопись</div>
+        <a class="logo logo-head" href="#">Новости культуры</a>
+        <ul class="nav-list">
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Обзоры</a></li>
+          <li><a href="#">Музыка</a></li>
+          <li><a href="#">Архитектура</a></li>
+          <li><a href="#">Кино</a></li>
+          <li><a href="#">Театр</a></li>
+          <li><a href="#">Литература</a></li>
+          <li><a href="#">Религия</a></li>
+          <li><a href="#">Живопись</a></li>
+        </ul>
       </nav>
     </header>
     <main>
       <section class="hotel">
-          <div>
-            <img src="img/Group24.svg">
-            <span>Подводный отель</span>
-            <div class="p">Как известно, Дубай – город контрастов. Самые революционные и фантастические мечты архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти и за счет нефти</div>
-          </div>
+        <img src="img/Group24.svg">
+        <h2>Подводный отель</h2>
+        <p>Как известно, Дубай – город контрастов. Самые революционные и фантастические мечты архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти и за счет нефти</p>
       </section>
-      <section>
-            <div class="h2 reviews">
-                Обзор
-            </div>
-            <div class="review">
-                <div>
-                    <img src="img/1.jpg">
-                    <div class="h3">«Шальные годы» Монпарнаса</div>
-                    <div class="p">В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября проходит выставка «Шальные годы Монпарнаса»</div>
-                </div>
-                <div>
-                    <img src="img/2.png">
-                    <div class="h3">Анатомия за 30 секунд</div>
-                    <div class="p">Сейчас, когда мир открыт нараспашку для человека и его познавательных изысканий, интерес к научно‑популярной литературе заметно вырос</div>
-                </div>
-                <div>
-                    <img src="img/3.jpg">
-                    <div class="h3">Сферические чудаки</div>
-                    <div class="p">Корреспондентам «Культурного обозревателя» посчастливилось побывать в театре «Сфера» на премьере спектакля «Чудаки и зануды»</div>
-                </div>
-            </div>
+      <section class="review">
+        <h2>Обзор</h2>
+        <ul class="review-list">
+          <li>
+            <img src="img/1.jpg">
+            <h3><a href="#">«Шальные годы» Монпарнаса</a></h3>
+            <p>В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября проходит выставка «Шальные годы Монпарнаса»</p>
+          </il>
+          <li>
+            <img src="img/2.png">
+            <h3><a href="#">Анатомия за 30 секунд</a></h3>
+            <p>Сейчас, когда мир открыт нараспашку для человека и его познавательных изысканий, интерес к научно‑популярной литературе заметно вырос</p>
+          </li>
+          <li>
+            <img src="img/3.jpg">
+            <h3><a href="#">Сферические чудаки</a></h3>
+            <p>Корреспондентам «Культурного обозревателя» посчастливилось побывать в театре «Сфера» на премьере спектакля «Чудаки и зануды»</p>
+          </li>
+        </ul>
       </section>
-      <section>
-          <div class="ticket">
-          <div class="h2">
-              Абонементы в театр
-          </div>
-          <div>
-              <div class="h3">Скидка 50% на весь сезон 2020</div>
-              <div class="p">Покупая абонемент на сезон 2020 года вы сэкономите половину стоимости всех спектаклей</div>
-          </div>
-          <div>
-              <div class="h3">Места у сцены</div>
-              <div class="p">Только для обладателей абонементов будет возможность сесть поближе к сцене</div>
-          </div>
-          <div>
-              <div class="h3">Автограф-сессия актёров</div>
-              <div class="p">После спектаклей у вас будет возможность пообщаться с актёрами и взять у них автограф</div>
-          </div>
-          <div class="button">Смотреть →</div>
-          </div>
+      <section class="ticket">
+        <h2>Абонементы в театр</h2>
+        <ul class="ticket-list">
+          <li>
+            <h3>Скидка 50% на весь сезон 2020</h3>
+            <p>Покупая абонемент на сезон 2020 года вы сэкономите половину стоимости всех спектаклей</p>
+            <span></span>
+          </li>
+          <li>
+            <h3>Места у сцены</h3>
+            <p>Только для обладателей абонементов будет возможность сесть поближе к сцене</p>
+            <span></span>
+          </li>
+          <li>
+            <h3>Автограф-сессия актёров</h3>
+            <p>После спектаклей у вас будет возможность пообщаться с актёрами и взять у них автограф</p>
+          </li>
+        </ul>
+        <button>Смотреть ➔</button>
       </section>
     </main>
     <footer>
-      <div>
-        <div class="title">Новости культуры</div>
-      </div>
-      <nav>
-          <div>Новости</div>
-          <div>Обзоры</div>
-          <div>Музыка</div>
-          <div>Архитектура</div>
-          <div>Кино</div>
-          <div>Театр</div>
-          <div>Литература</div>
-          <div>Религия</div>
-          <div>Живопись</div>
-      </nav>
+      <a class="logo logo-footer" href="#">Новости культуры</a>
+      <ul class="nav-list">
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Обзоры</a></li>
+        <li><a href="#">Музыка</a></li>
+        <li><a href="#">Архитектура</a></li>
+        <li><a href="#">Кино</a></li>
+        <li><a href="#">Театр</a></li>
+        <li><a href="#">Литература</a></li>
+        <li><a href="#">Религия</a></li>
+        <li><a href="#">Живопись</a></li>
+      </ul>
+      <span></span>
       <div class="social">
-          <div><img src="img/insta.svg"></div>
-          <div><img src="img/facebook_icon.svg"></div>
-          <div><img src="img/twitter_icon.svg"></div>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
       </div>
     </footer>
   </body>
